@@ -32,6 +32,7 @@
 |---|---|---|---|
 | 开发流程 | AI 编码工程化工作流 | skills/(25 个 skill)、agents/(4 个角色)、references/(7 份检查清单,skill 会引用) | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills),MIT |
 | 代码评审 | AI 代码评审 | open-code-review、open-code-review-delegate | [alibaba/open-code-review](https://github.com/alibaba/open-code-review),Apache-2.0 |
+| 图表绘制 | draw.io 架构图与流程图 | drawio-skill | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill),MIT |
 
 说明:
 - 工程化工作流整体保留 `skills/`、`agents/`、`references/` 结构,避免 skill 引用的共享清单失效。使用时把 `skills/` 下需要的目录复制到 `~/.kiro/skills/`,并保留 `references/`。
