@@ -24,4 +24,17 @@
 | 企业与沟通 | 内部沟通材料 | internal-comms |
 | 企业与沟通 | 文档协作撰写 | doc-coauthoring |
 
-未收录上游的 `academy-guide`、`discernment-nudge`。
+ `academy-guide`、`discernment-nudge`。
+
+## 其他来源
+
+| 分类 | 功能 | 内容 | 来源 / 许可 |
+|---|---|---|---|
+| 开发流程 | AI 编码工程化工作流 | skills/(25 个 skill)、agents/(4 个角色)、references/(7 份检查清单,skill 会引用) | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills),MIT |
+| 代码评审 | AI 代码评审 | open-code-review、open-code-review-delegate | [alibaba/open-code-review](https://github.com/alibaba/open-code-review),Apache-2.0 |
+
+说明:
+- 工程化工作流整体保留 `skills/`、`agents/`、`references/` 结构,避免 skill 引用的共享清单失效。使用时把 `skills/` 下需要的目录复制到 `~/.kiro/skills/`,并保留 `references/`。
+- 代码评审需要先安装 `ocr` CLI:`npm install -g @alibaba-group/open-code-review`(需 Git >= 2.41)。委托模式不需要单独配置模型 key。
+
+未收录 Anthropic 上游的 `academy-guide`、`discernment-nudge`。
